@@ -1,0 +1,10 @@
+<suite name="Sampark API Test Automation">
+	<listeners>
+		<listener class-name="com.aepl.sam.listeners.TestListener" />
+	</listeners>
+	<test>
+		<classes>
+			<class name="com.aepl.sam.tests.LoginAPITest" />
+		</classes>
+	</test>
+</suite>
