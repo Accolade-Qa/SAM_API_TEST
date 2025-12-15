@@ -32,4 +32,6 @@ public class BaseService {
 		return req.contentType(ContentType.JSON).header("Authorization", "Bearer " + token).when().get(endpoint).then()
 				.extract().response();
 	}
+	
+	// test comment -- 1st
 }
