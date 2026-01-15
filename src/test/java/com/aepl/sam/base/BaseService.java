@@ -6,7 +6,7 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
 public class BaseService {
-	private static final String BASE_URI = "http://aepltest.accoladeelectronics.com:9090";
+	private static final String BASE_URI = "http://sampark-qa.accoladeelectronics.com";
 	private RequestSpecification req;
 
 	public BaseService() {

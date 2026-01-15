@@ -20,7 +20,7 @@ public class LoginAPITest {
 	@BeforeClass
 	public void setup() {
 		loginService = new LoginService();
-		loginRequest = new LoginRequest("suraj.bhalerao@accoladeelectronics.com", "oM0mvdKA");
+		loginRequest = new LoginRequest("suraj.bhalerao@accoladeelectronics.com", "Suraj@123");
 	}
 
 	@Test(priority = 1)
