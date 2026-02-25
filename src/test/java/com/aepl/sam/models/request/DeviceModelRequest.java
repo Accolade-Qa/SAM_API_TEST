@@ -7,7 +7,7 @@ public class DeviceModelRequest {
 	private String modelSerialSequence;
 	private String hardwareVersion;
 	private String userId;
-	private long createdAt; // timestamp in millis
+	private long createdAt; 
 
 	public DeviceModelRequest() {
 	}
@@ -23,7 +23,6 @@ public class DeviceModelRequest {
 		this.createdAt = createdAt;
 	}
 
-	// 🔨 Getters and setters
 	public String getModelId() {
 		return modelId;
 	}
@@ -80,7 +79,6 @@ public class DeviceModelRequest {
 		this.createdAt = createdAt;
 	}
 
-	// 🔨 Builder pattern for flexibility
 	public static class Builder {
 
 		private String modelId;
