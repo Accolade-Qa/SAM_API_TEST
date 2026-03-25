@@ -11,7 +11,6 @@ import com.aepl.sam.services.DeviceModelsService;
 import io.restassured.response.Response;
 
 public class DeviceModelAPITest {
-
 	private DeviceModelsService deviceModelsService;
 	private DeviceModelRequest deviceModelRequest;
 
@@ -39,7 +38,7 @@ public class DeviceModelAPITest {
 		Assert.assertEquals(response.getData().getModelCode(), "afsdfa");
 		Assert.assertEquals(response.getData().getModelName(), "afdsasd");
 
-		System.out.println("✅ Model saved: " + response.getData().getId());
+		System.out.println("Model saved: " + response.getData().getId());
 	}
 
 }
